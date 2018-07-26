@@ -16,6 +16,21 @@ h4{
   color:#ff9b0f;
 }
 
+.parallax{
+  /*The image used*/
+  background-image: url("AsmaraEritrea.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .center{
   display: block;
   margin-left: auto;
@@ -23,8 +38,84 @@ h4{
   width: 50%;
 }
 
-#asmara{
-  width: 400px;
-  height: 350px;
+ #asmara{
+  width: 100px;
+  height: 250px;
   title: "Asmara, Eritrea";
+}
+
+#textTwo{
+  height: 200px;
+  background: white;
+}
+
+
+.parallax2{
+  /*The image used*/
+  background-image: url("pic5.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ #pic5{
+  width: 100px;
+  height: 250px;
+  title: "Taken by me";
+}
+
+
+.parallax3{
+  /*The image used*/
+  background-image: url("yoni.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 5px;
+}
+
+.image1 {
+  width: 48%;
+  background-image:url("yoni.jpg");
+  height: 500px;
+  padding: 5px;
+}
+
+.image2 {
+  width: 48%;
+  background-image:url("mella.jpg");
+  height: 500px;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+ #pic5{
+  width: 100px;
+  height: 250px;
 }
