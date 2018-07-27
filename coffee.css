@@ -10,6 +10,7 @@ h1{
   text-align: center;
 }
 
+/*logo*/
 #mugg{
   display: inline-block;
   width: 150px;
@@ -17,11 +18,16 @@ h1{
   float: left;
 }
 
+#searchBar{
+  display: inline-block
+  width:250px;
+  height:100px;
+  float; center;
+}
 
 
 
-
-
+/* header that says location, about, and homepage */
 /* Style the header with a grey background and some padding */
 .header {
   background-color: #ffffff;
@@ -80,3 +86,38 @@ h1{
     float: none;
   }
 }
+
+
+/*coffee image*/
+.parallax{
+  /*The image used*/
+  background-image: url("coffeePic.jpg");
+
+  /* Set a specific height */
+  height: 350px;
+
+  /* create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+ #coffee{
+  width: 100px;
+  height: 250px;
+}
+
+#textTwo{
+  height: 200px;
+  background: white;
+}
+
